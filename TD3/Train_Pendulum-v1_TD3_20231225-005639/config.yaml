@@ -1,0 +1,62 @@
+general_cfg:
+  algo_name: TD3
+  collect_traj: false
+  device: cuda
+  env_name: gym
+  interact_summary_fre: 1
+  interactor_mode: dummy
+  learner_mode: serial
+  load_checkpoint: false
+  load_model_step: best
+  load_path: Train_ray_Pendulum-v1_DDPG_20230527-001715
+  max_episode: 400
+  max_step: 200
+  mode: train
+  model_save_fre: 2000
+  n_interactors: 1
+  n_learners: 1
+  online_eval: true
+  online_eval_episode: 20
+  policy_summary_fre: 100
+  seed: 10
+  share_buffer: true
+algo_cfg:
+  action_type: dpg
+  actor_layers:
+  - activation: tanh
+    layer_size:
+    - 256
+    layer_type: linear
+  - activation: tanh
+    layer_size:
+    - 256
+    layer_type: linear
+  actor_lr: 0.001
+  batch_size: 128
+  buffer_size: 8000
+  buffer_type: REPLAY_QUE
+  critic_layers:
+  - activation: tanh
+    layer_size:
+    - 256
+    layer_type: linear
+  - activation: tanh
+    layer_size:
+    - 256
+    layer_type: linear
+  critic_lr: 0.001
+  expl_noise: 0.1
+  explore_steps: 100
+  gamma: 0.99
+  noise_clip: 0.5
+  policy_freq: 2
+  policy_loss_weight: 0.002
+  policy_noise: 0.2
+  tau: 0.005
+env_cfg:
+  id: Pendulum-v1
+  ignore_params:
+  - wrapper
+  - ignore_params
+  render_mode: null
+  wrapper: null

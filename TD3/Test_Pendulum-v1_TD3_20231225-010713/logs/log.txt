@@ -1,0 +1,69 @@
+2023-12-25 01:07:14 - Log - INFO: - General Configs:
+2023-12-25 01:07:14 - Log - INFO: - ================================================================================
+2023-12-25 01:07:14 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 01:07:14 - Log - INFO: -       env_name      	        gym         	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -      algo_name      	        TD3         	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -         mode        	        test        	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -        device       	        cuda        	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -         seed        	         10         	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -     max_episode     	         10         	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -       max_step      	        200         	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -     collect_traj    	         0          	   <class 'bool'>   
+2023-12-25 01:07:14 - Log - INFO: -    n_interactors    	         1          	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -   interactor_mode   	       dummy        	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -     learner_mode    	       serial       	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -      n_learners     	         1          	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -     share_buffer    	         1          	   <class 'bool'>   
+2023-12-25 01:07:14 - Log - INFO: -     online_eval     	         1          	   <class 'bool'>   
+2023-12-25 01:07:14 - Log - INFO: - online_eval_episode 	         20         	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -    model_save_fre   	        2000        	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -   load_checkpoint   	         1          	   <class 'bool'>   
+2023-12-25 01:07:14 - Log - INFO: -      load_path      	Train_Pendulum-v1_TD3_20231225-005639	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -   load_model_step   	        best        	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: - interact_summary_fre	         1          	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -  policy_summary_fre 	        100         	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: - ================================================================================
+2023-12-25 01:07:14 - Log - INFO: - Algo Configs:
+2023-12-25 01:07:14 - Log - INFO: - ================================================================================
+2023-12-25 01:07:14 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 01:07:14 - Log - INFO: -     action_type     	        dpg         	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -     buffer_type     	     REPLAY_QUE     	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -    explore_steps    	        100         	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -     policy_freq     	         2          	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -       actor_lr      	       0.001        	  <class 'float'>   
+2023-12-25 01:07:14 - Log - INFO: -      critic_lr      	       0.001        	  <class 'float'>   
+2023-12-25 01:07:14 - Log - INFO: -        gamma        	        0.99        	  <class 'float'>   
+2023-12-25 01:07:14 - Log - INFO: -         tau         	       0.005        	  <class 'float'>   
+2023-12-25 01:07:14 - Log - INFO: -     policy_noise    	        0.2         	  <class 'float'>   
+2023-12-25 01:07:14 - Log - INFO: -      expl_noise     	        0.1         	  <class 'float'>   
+2023-12-25 01:07:14 - Log - INFO: -      noise_clip     	        0.5         	  <class 'float'>   
+2023-12-25 01:07:14 - Log - INFO: -      batch_size     	        128         	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -     buffer_size     	        8000        	   <class 'int'>    
+2023-12-25 01:07:14 - Log - INFO: -     actor_layers    	[{'layer_type': 'linear', 'layer_size': [256], 'activation': 'tanh'}, {'layer_type': 'linear', 'layer_size': [256], 'activation': 'tanh'}]	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -    critic_layers    	[{'layer_type': 'linear', 'layer_size': [256], 'activation': 'tanh'}, {'layer_type': 'linear', 'layer_size': [256], 'activation': 'tanh'}]	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -  policy_loss_weight 	       0.002        	  <class 'float'>   
+2023-12-25 01:07:14 - Log - INFO: - ================================================================================
+2023-12-25 01:07:14 - Log - INFO: - Env Configs:
+2023-12-25 01:07:14 - Log - INFO: - ================================================================================
+2023-12-25 01:07:14 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 01:07:14 - Log - INFO: -          id         	    Pendulum-v1     	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -     render_mode     	        None        	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -       wrapper       	        None        	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: -    ignore_params    	['wrapper', 'ignore_params']	   <class 'str'>    
+2023-12-25 01:07:14 - Log - INFO: - ================================================================================
+2023-12-25 01:07:14 - Log - INFO: - [OnlineTester] Start online tester!
+2023-12-25 01:07:14 - Log - INFO: - [ModelMgr.init] Start model manager!
+2023-12-25 01:07:14 - Log - INFO: - [Recorder.run] Start recorder!
+2023-12-25 01:07:14 - Log - INFO: - [Collector.init] Start collector!
+2023-12-25 01:07:14 - Log - INFO: - [Trainer.run] Start testing!
+2023-12-25 01:07:15 - Log - INFO: - Interactor 0 finished episode 0 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:16 - Log - INFO: - Interactor 0 finished episode 1 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:16 - Log - INFO: - Interactor 0 finished episode 2 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:16 - Log - INFO: - Interactor 0 finished episode 3 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:17 - Log - INFO: - Interactor 0 finished episode 4 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:17 - Log - INFO: - Interactor 0 finished episode 5 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:17 - Log - INFO: - Interactor 0 finished episode 6 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:18 - Log - INFO: - Interactor 0 finished episode 7 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:18 - Log - INFO: - Interactor 0 finished episode 8 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:18 - Log - INFO: - Interactor 0 finished episode 9 with reward -257.002 in 200 steps, truncated: True, terminated: False
+2023-12-25 01:07:18 - Log - INFO: - [Trainer.run] Finish testing! Time cost: 4.206 s
