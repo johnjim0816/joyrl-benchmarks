@@ -1,0 +1,50 @@
+general_cfg:
+  algo_name: NoisyDQN
+  collect_traj: false
+  device: cpu
+  env_name: gym
+  interact_summary_fre: 1
+  interactor_mode: dummy
+  learner_mode: serial
+  load_checkpoint: true
+  load_model_step: best
+  load_path: Train_CartPole-v1_NoisyDQN_20231225-000846
+  max_episode: 10
+  max_step: 200
+  mode: test
+  model_save_fre: 500
+  n_interactors: 1
+  n_learners: 1
+  online_eval: true
+  online_eval_episode: 10
+  policy_summary_fre: 100
+  seed: 1
+  share_buffer: true
+algo_cfg:
+  batch_size: 128
+  buffer_size: 100000
+  buffer_type: REPLAY_QUE
+  epsilon_decay: 500
+  epsilon_end: 0.01
+  epsilon_start: 0.95
+  gamma: 0.99
+  lr: 0.0001
+  target_update: 4
+  value_layers:
+  - activation: relu
+    layer_size:
+    - 256
+    layer_type: noisy_linear
+    std_init: 0.4
+  - activation: relu
+    layer_size:
+    - 256
+    layer_type: noisy_linear
+    std_init: 0.4
+env_cfg:
+  id: CartPole-v1
+  ignore_params:
+  - wrapper
+  - ignore_params
+  render_mode: null
+  wrapper: null

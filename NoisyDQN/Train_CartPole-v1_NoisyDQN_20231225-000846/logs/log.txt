@@ -1,0 +1,206 @@
+2023-12-25 00:08:46 - Log - INFO: - General Configs:
+2023-12-25 00:08:46 - Log - INFO: - ================================================================================
+2023-12-25 00:08:46 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 00:08:46 - Log - INFO: -       env_name      	        gym         	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -      algo_name      	      NoisyDQN      	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -         mode        	       train        	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -        device       	        cpu         	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -         seed        	         1          	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -     max_episode     	        100         	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -       max_step      	        200         	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -     collect_traj    	         0          	   <class 'bool'>   
+2023-12-25 00:08:46 - Log - INFO: -    n_interactors    	         1          	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -   interactor_mode   	       dummy        	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -     learner_mode    	       serial       	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -      n_learners     	         1          	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -     share_buffer    	         1          	   <class 'bool'>   
+2023-12-25 00:08:46 - Log - INFO: -     online_eval     	         1          	   <class 'bool'>   
+2023-12-25 00:08:46 - Log - INFO: - online_eval_episode 	         10         	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -    model_save_fre   	        500         	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -   load_checkpoint   	         0          	   <class 'bool'>   
+2023-12-25 00:08:46 - Log - INFO: -      load_path      	Train_single_CartPole-v1_NoisyDQN_20230518-133737	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -   load_model_step   	        best        	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: - interact_summary_fre	         1          	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -  policy_summary_fre 	        100         	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: - ================================================================================
+2023-12-25 00:08:46 - Log - INFO: - Algo Configs:
+2023-12-25 00:08:46 - Log - INFO: - ================================================================================
+2023-12-25 00:08:46 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 00:08:46 - Log - INFO: -    epsilon_start    	        0.95        	  <class 'float'>   
+2023-12-25 00:08:46 - Log - INFO: -     epsilon_end     	        0.01        	  <class 'float'>   
+2023-12-25 00:08:46 - Log - INFO: -    epsilon_decay    	        500         	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -        gamma        	        0.99        	  <class 'float'>   
+2023-12-25 00:08:46 - Log - INFO: -          lr         	       0.0001       	  <class 'float'>   
+2023-12-25 00:08:46 - Log - INFO: -     buffer_size     	       100000       	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -      batch_size     	        128         	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -    target_update    	         4          	   <class 'int'>    
+2023-12-25 00:08:46 - Log - INFO: -     value_layers    	[{'layer_type': 'noisy_linear', 'layer_size': [256], 'activation': 'relu', 'std_init': 0.4}, {'layer_type': 'noisy_linear', 'layer_size': [256], 'activation': 'relu', 'std_init': 0.4}]	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -     buffer_type     	     REPLAY_QUE     	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: - ================================================================================
+2023-12-25 00:08:46 - Log - INFO: - Env Configs:
+2023-12-25 00:08:46 - Log - INFO: - ================================================================================
+2023-12-25 00:08:46 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 00:08:46 - Log - INFO: -          id         	    CartPole-v1     	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -     render_mode     	        None        	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -       wrapper       	        None        	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: -    ignore_params    	['wrapper', 'ignore_params']	   <class 'str'>    
+2023-12-25 00:08:46 - Log - INFO: - ================================================================================
+2023-12-25 00:08:46 - Log - INFO: - [OnlineTester] Start online tester!
+2023-12-25 00:08:46 - Log - INFO: - [ModelMgr.init] Start model manager!
+2023-12-25 00:08:46 - Log - INFO: - [Recorder.run] Start recorder!
+2023-12-25 00:08:46 - Log - INFO: - [Collector.init] Start collector!
+2023-12-25 00:08:46 - Log - INFO: - [Trainer.run] Start training!
+2023-12-25 00:08:46 - Log - INFO: - Interactor 0 finished episode 0 with reward 26.000 in 26 steps, truncated: False, terminated: True
+2023-12-25 00:08:46 - Log - INFO: - Interactor 0 finished episode 1 with reward 16.000 in 16 steps, truncated: False, terminated: True
+2023-12-25 00:08:46 - Log - INFO: - Interactor 0 finished episode 2 with reward 64.000 in 64 steps, truncated: False, terminated: True
+2023-12-25 00:08:46 - Log - INFO: - Interactor 0 finished episode 3 with reward 91.000 in 91 steps, truncated: False, terminated: True
+2023-12-25 00:08:46 - Log - INFO: - Interactor 0 finished episode 4 with reward 16.000 in 16 steps, truncated: False, terminated: True
+2023-12-25 00:08:47 - Log - INFO: - Interactor 0 finished episode 5 with reward 15.000 in 15 steps, truncated: False, terminated: True
+2023-12-25 00:08:47 - Log - INFO: - test_step: 0, online_eval_reward: 9.500
+2023-12-25 00:08:47 - Log - INFO: - current test step obtain a better online_eval_reward: 9.500, save the best model!
+2023-12-25 00:08:47 - Log - INFO: - Interactor 0 finished episode 6 with reward 21.000 in 21 steps, truncated: False, terminated: True
+2023-12-25 00:08:47 - Log - INFO: - Interactor 0 finished episode 7 with reward 13.000 in 13 steps, truncated: False, terminated: True
+2023-12-25 00:08:47 - Log - INFO: - Interactor 0 finished episode 8 with reward 11.000 in 11 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 9 with reward 13.000 in 13 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 10 with reward 15.000 in 15 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 11 with reward 16.000 in 16 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 12 with reward 9.000 in 9 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 13 with reward 14.000 in 14 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 14 with reward 12.000 in 12 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 15 with reward 15.000 in 15 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 16 with reward 12.000 in 12 steps, truncated: False, terminated: True
+2023-12-25 00:08:48 - Log - INFO: - Interactor 0 finished episode 17 with reward 11.000 in 11 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 18 with reward 12.000 in 12 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 19 with reward 10.000 in 10 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 20 with reward 15.000 in 15 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 21 with reward 10.000 in 10 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 22 with reward 12.000 in 12 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 23 with reward 12.000 in 12 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 24 with reward 10.000 in 10 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 25 with reward 10.000 in 10 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 26 with reward 12.000 in 12 steps, truncated: False, terminated: True
+2023-12-25 00:08:49 - Log - INFO: - Interactor 0 finished episode 27 with reward 13.000 in 13 steps, truncated: False, terminated: True
+2023-12-25 00:08:50 - Log - INFO: - Interactor 0 finished episode 28 with reward 10.000 in 10 steps, truncated: False, terminated: True
+2023-12-25 00:08:50 - Log - INFO: - Interactor 0 finished episode 29 with reward 12.000 in 12 steps, truncated: False, terminated: True
+2023-12-25 00:08:50 - Log - INFO: - Interactor 0 finished episode 30 with reward 10.000 in 10 steps, truncated: False, terminated: True
+2023-12-25 00:08:51 - Log - INFO: - Interactor 0 finished episode 31 with reward 39.000 in 39 steps, truncated: False, terminated: True
+2023-12-25 00:08:51 - Log - INFO: - Interactor 0 finished episode 32 with reward 35.000 in 35 steps, truncated: False, terminated: True
+2023-12-25 00:08:51 - Log - INFO: - Interactor 0 finished episode 33 with reward 54.000 in 54 steps, truncated: False, terminated: True
+2023-12-25 00:08:52 - Log - INFO: - test_step: 500, online_eval_reward: 38.500
+2023-12-25 00:08:52 - Log - INFO: - current test step obtain a better online_eval_reward: 38.500, save the best model!
+2023-12-25 00:08:52 - Log - INFO: - Interactor 0 finished episode 34 with reward 56.000 in 56 steps, truncated: False, terminated: True
+2023-12-25 00:08:52 - Log - INFO: - Interactor 0 finished episode 35 with reward 35.000 in 35 steps, truncated: False, terminated: True
+2023-12-25 00:08:54 - Log - INFO: - Interactor 0 finished episode 36 with reward 159.000 in 159 steps, truncated: False, terminated: True
+2023-12-25 00:08:55 - Log - INFO: - Interactor 0 finished episode 37 with reward 116.000 in 116 steps, truncated: False, terminated: True
+2023-12-25 00:08:56 - Log - INFO: - Interactor 0 finished episode 38 with reward 120.000 in 120 steps, truncated: False, terminated: True
+2023-12-25 00:08:57 - Log - INFO: - test_step: 1000, online_eval_reward: 130.100
+2023-12-25 00:08:57 - Log - INFO: - current test step obtain a better online_eval_reward: 130.100, save the best model!
+2023-12-25 00:08:57 - Log - INFO: - Interactor 0 finished episode 39 with reward 143.000 in 143 steps, truncated: False, terminated: True
+2023-12-25 00:09:00 - Log - INFO: - Interactor 0 finished episode 40 with reward 200.000 in 200 steps, truncated: False, terminated: True
+2023-12-25 00:09:01 - Log - INFO: - Interactor 0 finished episode 41 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:03 - Log - INFO: - test_step: 1500, online_eval_reward: 189.100
+2023-12-25 00:09:03 - Log - INFO: - current test step obtain a better online_eval_reward: 189.100, save the best model!
+2023-12-25 00:09:04 - Log - INFO: - Interactor 0 finished episode 42 with reward 163.000 in 163 steps, truncated: False, terminated: True
+2023-12-25 00:09:05 - Log - INFO: - Interactor 0 finished episode 43 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:07 - Log - INFO: - Interactor 0 finished episode 44 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:07 - Log - INFO: - test_step: 2000, online_eval_reward: 200.000
+2023-12-25 00:09:07 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:09 - Log - INFO: - Interactor 0 finished episode 45 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:11 - Log - INFO: - Interactor 0 finished episode 46 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:11 - Log - INFO: - test_step: 2500, online_eval_reward: 200.000
+2023-12-25 00:09:11 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:13 - Log - INFO: - Interactor 0 finished episode 47 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:15 - Log - INFO: - Interactor 0 finished episode 48 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:16 - Log - INFO: - test_step: 3000, online_eval_reward: 200.000
+2023-12-25 00:09:16 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:17 - Log - INFO: - Interactor 0 finished episode 49 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:18 - Log - INFO: - Interactor 0 finished episode 50 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:20 - Log - INFO: - Interactor 0 finished episode 51 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:21 - Log - INFO: - test_step: 3500, online_eval_reward: 200.000
+2023-12-25 00:09:21 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:22 - Log - INFO: - Interactor 0 finished episode 52 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:24 - Log - INFO: - Interactor 0 finished episode 53 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:26 - Log - INFO: - Interactor 0 finished episode 54 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:27 - Log - INFO: - test_step: 4000, online_eval_reward: 200.000
+2023-12-25 00:09:27 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:28 - Log - INFO: - Interactor 0 finished episode 55 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:30 - Log - INFO: - Interactor 0 finished episode 56 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:31 - Log - INFO: - test_step: 4500, online_eval_reward: 200.000
+2023-12-25 00:09:31 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:32 - Log - INFO: - Interactor 0 finished episode 57 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:33 - Log - INFO: - Interactor 0 finished episode 58 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:35 - Log - INFO: - Interactor 0 finished episode 59 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:36 - Log - INFO: - test_step: 5000, online_eval_reward: 200.000
+2023-12-25 00:09:36 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:37 - Log - INFO: - Interactor 0 finished episode 60 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:39 - Log - INFO: - Interactor 0 finished episode 61 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:41 - Log - INFO: - test_step: 5500, online_eval_reward: 200.000
+2023-12-25 00:09:41 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:41 - Log - INFO: - Interactor 0 finished episode 62 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:42 - Log - INFO: - Interactor 0 finished episode 63 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:44 - Log - INFO: - test_step: 6000, online_eval_reward: 200.000
+2023-12-25 00:09:44 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:45 - Log - INFO: - Interactor 0 finished episode 64 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:46 - Log - INFO: - Interactor 0 finished episode 65 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:48 - Log - INFO: - Interactor 0 finished episode 66 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:49 - Log - INFO: - test_step: 6500, online_eval_reward: 199.800
+2023-12-25 00:09:50 - Log - INFO: - Interactor 0 finished episode 67 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:51 - Log - INFO: - Interactor 0 finished episode 68 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:53 - Log - INFO: - test_step: 7000, online_eval_reward: 200.000
+2023-12-25 00:09:53 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:53 - Log - INFO: - Interactor 0 finished episode 69 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:55 - Log - INFO: - Interactor 0 finished episode 70 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:57 - Log - INFO: - Interactor 0 finished episode 71 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:09:58 - Log - INFO: - test_step: 7500, online_eval_reward: 200.000
+2023-12-25 00:09:58 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:09:59 - Log - INFO: - Interactor 0 finished episode 72 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:01 - Log - INFO: - Interactor 0 finished episode 73 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:03 - Log - INFO: - Interactor 0 finished episode 74 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:04 - Log - INFO: - test_step: 8000, online_eval_reward: 200.000
+2023-12-25 00:10:04 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:05 - Log - INFO: - Interactor 0 finished episode 75 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:07 - Log - INFO: - Interactor 0 finished episode 76 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:08 - Log - INFO: - test_step: 8500, online_eval_reward: 200.000
+2023-12-25 00:10:08 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:09 - Log - INFO: - Interactor 0 finished episode 77 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:10 - Log - INFO: - Interactor 0 finished episode 78 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:13 - Log - INFO: - test_step: 9000, online_eval_reward: 200.000
+2023-12-25 00:10:13 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:13 - Log - INFO: - Interactor 0 finished episode 79 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:14 - Log - INFO: - Interactor 0 finished episode 80 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:16 - Log - INFO: - Interactor 0 finished episode 81 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:17 - Log - INFO: - test_step: 9500, online_eval_reward: 200.000
+2023-12-25 00:10:17 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:18 - Log - INFO: - Interactor 0 finished episode 82 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:20 - Log - INFO: - Interactor 0 finished episode 83 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:22 - Log - INFO: - test_step: 10000, online_eval_reward: 200.000
+2023-12-25 00:10:22 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:22 - Log - INFO: - Interactor 0 finished episode 84 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:23 - Log - INFO: - Interactor 0 finished episode 85 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:25 - Log - INFO: - Interactor 0 finished episode 86 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:27 - Log - INFO: - test_step: 10500, online_eval_reward: 200.000
+2023-12-25 00:10:27 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:27 - Log - INFO: - Interactor 0 finished episode 87 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:29 - Log - INFO: - Interactor 0 finished episode 88 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:32 - Log - INFO: - Interactor 0 finished episode 89 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:32 - Log - INFO: - test_step: 11000, online_eval_reward: 200.000
+2023-12-25 00:10:32 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:34 - Log - INFO: - Interactor 0 finished episode 90 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:36 - Log - INFO: - Interactor 0 finished episode 91 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:37 - Log - INFO: - test_step: 11500, online_eval_reward: 200.000
+2023-12-25 00:10:37 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:38 - Log - INFO: - Interactor 0 finished episode 92 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:39 - Log - INFO: - Interactor 0 finished episode 93 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:41 - Log - INFO: - test_step: 12000, online_eval_reward: 200.000
+2023-12-25 00:10:41 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:41 - Log - INFO: - Interactor 0 finished episode 94 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:43 - Log - INFO: - Interactor 0 finished episode 95 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:44 - Log - INFO: - Interactor 0 finished episode 96 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:46 - Log - INFO: - test_step: 12500, online_eval_reward: 200.000
+2023-12-25 00:10:46 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!
+2023-12-25 00:10:46 - Log - INFO: - Interactor 0 finished episode 97 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:48 - Log - INFO: - Interactor 0 finished episode 98 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:49 - Log - INFO: - Interactor 0 finished episode 99 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:10:49 - Log - INFO: - [Trainer.run] Finish training! Time cost: 123.834 s
+2023-12-25 00:10:50 - Log - INFO: - test_step: 13000, online_eval_reward: 200.000
+2023-12-25 00:10:50 - Log - INFO: - current test step obtain a better online_eval_reward: 200.000, save the best model!

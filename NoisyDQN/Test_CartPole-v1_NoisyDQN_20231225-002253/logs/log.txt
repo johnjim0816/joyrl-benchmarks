@@ -1,0 +1,63 @@
+2023-12-25 00:22:54 - Log - INFO: - General Configs:
+2023-12-25 00:22:54 - Log - INFO: - ================================================================================
+2023-12-25 00:22:54 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 00:22:54 - Log - INFO: -       env_name      	        gym         	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -      algo_name      	      NoisyDQN      	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -         mode        	        test        	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -        device       	        cpu         	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -         seed        	         1          	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -     max_episode     	         10         	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -       max_step      	        200         	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -     collect_traj    	         0          	   <class 'bool'>   
+2023-12-25 00:22:54 - Log - INFO: -    n_interactors    	         1          	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -   interactor_mode   	       dummy        	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -     learner_mode    	       serial       	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -      n_learners     	         1          	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -     share_buffer    	         1          	   <class 'bool'>   
+2023-12-25 00:22:54 - Log - INFO: -     online_eval     	         1          	   <class 'bool'>   
+2023-12-25 00:22:54 - Log - INFO: - online_eval_episode 	         10         	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -    model_save_fre   	        500         	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -   load_checkpoint   	         1          	   <class 'bool'>   
+2023-12-25 00:22:54 - Log - INFO: -      load_path      	Train_CartPole-v1_NoisyDQN_20231225-000846	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -   load_model_step   	        best        	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: - interact_summary_fre	         1          	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -  policy_summary_fre 	        100         	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: - ================================================================================
+2023-12-25 00:22:54 - Log - INFO: - Algo Configs:
+2023-12-25 00:22:54 - Log - INFO: - ================================================================================
+2023-12-25 00:22:54 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 00:22:54 - Log - INFO: -    epsilon_start    	        0.95        	  <class 'float'>   
+2023-12-25 00:22:54 - Log - INFO: -     epsilon_end     	        0.01        	  <class 'float'>   
+2023-12-25 00:22:54 - Log - INFO: -    epsilon_decay    	        500         	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -        gamma        	        0.99        	  <class 'float'>   
+2023-12-25 00:22:54 - Log - INFO: -          lr         	       0.0001       	  <class 'float'>   
+2023-12-25 00:22:54 - Log - INFO: -     buffer_size     	       100000       	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -      batch_size     	        128         	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -    target_update    	         4          	   <class 'int'>    
+2023-12-25 00:22:54 - Log - INFO: -     value_layers    	[{'layer_type': 'noisy_linear', 'layer_size': [256], 'activation': 'relu', 'std_init': 0.4}, {'layer_type': 'noisy_linear', 'layer_size': [256], 'activation': 'relu', 'std_init': 0.4}]	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -     buffer_type     	     REPLAY_QUE     	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: - ================================================================================
+2023-12-25 00:22:54 - Log - INFO: - Env Configs:
+2023-12-25 00:22:54 - Log - INFO: - ================================================================================
+2023-12-25 00:22:54 - Log - INFO: -         Name        	       Value        	        Type        
+2023-12-25 00:22:54 - Log - INFO: -          id         	    CartPole-v1     	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -     render_mode     	        None        	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -       wrapper       	        None        	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: -    ignore_params    	['wrapper', 'ignore_params']	   <class 'str'>    
+2023-12-25 00:22:54 - Log - INFO: - ================================================================================
+2023-12-25 00:22:54 - Log - INFO: - [OnlineTester] Start online tester!
+2023-12-25 00:22:54 - Log - INFO: - [ModelMgr.init] Start model manager!
+2023-12-25 00:22:54 - Log - INFO: - [Recorder.run] Start recorder!
+2023-12-25 00:22:54 - Log - INFO: - [Collector.init] Start collector!
+2023-12-25 00:22:54 - Log - INFO: - [Trainer.run] Start testing!
+2023-12-25 00:22:54 - Log - INFO: - Interactor 0 finished episode 0 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:54 - Log - INFO: - Interactor 0 finished episode 1 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:54 - Log - INFO: - Interactor 0 finished episode 2 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:54 - Log - INFO: - Interactor 0 finished episode 3 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:54 - Log - INFO: - Interactor 0 finished episode 4 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:55 - Log - INFO: - Interactor 0 finished episode 5 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:55 - Log - INFO: - Interactor 0 finished episode 6 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:55 - Log - INFO: - Interactor 0 finished episode 7 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:55 - Log - INFO: - Interactor 0 finished episode 8 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:55 - Log - INFO: - Interactor 0 finished episode 9 with reward 200.000 in 200 steps, truncated: False, terminated: False
+2023-12-25 00:22:55 - Log - INFO: - [Trainer.run] Finish testing! Time cost: 1.592 s
